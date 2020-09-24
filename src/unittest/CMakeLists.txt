@@ -1,0 +1,2 @@
+add_executable(arena_test arena_test.cc)
+target_link_libraries(arena_test leveldb_utils)
