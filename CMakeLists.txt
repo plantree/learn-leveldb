@@ -21,5 +21,8 @@ include_directories(${PROJECT_SOURCE_DIR}/src/include)
 include_directories(${PROJECT_SOURCE_DIR}/src/include/leveldb)
 include_directories(${PROJECT_SOURCE_DIR}/src/port)
 
+# test
+enable_testing()
+
 add_subdirectory(src/util)
 add_subdirectory(src/unittest)
