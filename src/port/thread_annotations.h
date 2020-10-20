@@ -2,7 +2,7 @@
  * @Author: py.wang 
  * @Date: 2020-09-25 19:54:09 
  * @Last Modified by: py.wang
- * @Last Modified time: 2020-09-27 20:38:30
+ * @Last Modified time: 2020-10-16 19:29:48
  */
 #ifndef STORAGE_LEVELDB_PORT_THREAD_ANNOTATIONS_H
 #define STORAGE_LEVELDB_PORT_THREAD_ANNOTATIONS_H
@@ -40,7 +40,7 @@
 
 #ifndef EXCLUSIVE_LOCKS_REQUIRED
 #define EXCLUSIVE_LOCKS_REQUIRED(...) \
-    THREAD_ANNOTATION_ATTRIBUTE__(exclusive_locsk_required(__VA_ARGS__))
+    THREAD_ANNOTATION_ATTRIBUTE__(exclusive_locks_required(__VA_ARGS__))
 #endif
 
 #ifndef SHARED_LOCKS_REQUIRED

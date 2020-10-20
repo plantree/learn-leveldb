@@ -9,3 +9,7 @@ add_test(NAME coding_test COMMAND coding_test)
 add_executable(bloom_test bloom_test.cc)
 target_link_libraries(bloom_test leveldb_utils)
 add_test(NAME bloom_test COMMAND bloom_test)
+
+add_executable(cache_test cache_test.cc)
+target_link_libraries(cache_test leveldb_utils)
+add_test(NAME cache_test COMMAND cache_test)

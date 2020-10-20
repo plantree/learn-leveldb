@@ -1,4 +1,6 @@
 # learn-leveldb
+![license](https://img.shields.io/github/license/mashape/apistatus.svg)
+![learn-leveldb (Linux)](https://github.com/plantree/learn-leveldb/workflows/learn-leveldb%20(Linux)/badge.svg)
 
 #### 1. 初衷
 
